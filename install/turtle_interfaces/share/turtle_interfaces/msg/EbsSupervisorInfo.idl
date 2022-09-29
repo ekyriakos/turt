@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/EbsSupervisorInfo.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    module EbsSupervisorInfo_Constants {
+      const uint8 EBS_UNAVAILABLE = 1;
+      const uint8 EBS_ARMED = 2;
+      const uint8 EBS_ACTIVATED = 3;
+      const uint8 SERVICE_BRAKE_DISENGAGED = 1;
+      const uint8 SERVICE_BRAKE_ENGAGED = 2;
+      const uint8 SERVICE_BRAKE_AVAILABLE = 3;
+    };
+    struct EbsSupervisorInfo {
+      std_msgs::msg::Header header;
+
+      boolean asmsstate;
+
+      boolean tsmsout;
+
+      uint8 ebsstatus;
+
+      boolean ebsled;
+
+      uint8 servicebrakestatus;
+
+      boolean initialchecked;
+
+      int8 initialcheckstage;
+
+      boolean monitortankpressure;
+
+      boolean monitorbrakepressure;
+
+      boolean monitorservocheck;
+
+      boolean monitorapu;
+    };
+  };
+};

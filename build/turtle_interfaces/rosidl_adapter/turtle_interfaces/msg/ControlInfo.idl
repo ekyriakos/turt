@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/ControlInfo.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    struct ControlInfo {
+      std_msgs::msg::Header header;
+
+      float lookahead_distance;
+
+      float vx_desired;
+
+      uint8 lap;
+
+      boolean map_available;
+
+      boolean finalization_trigger;
+
+      float seconds_to_cross_finish_line;
+
+      float anti_delft_gain;
+
+      float finish_dist_thresh;
+
+      float vx;
+
+      float seconds_passed_since_finalization_trigger;
+
+      boolean heading_condition;
+
+      float startline_pose_heading;
+    };
+  };
+};

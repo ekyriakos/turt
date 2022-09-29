@@ -1,0 +1,6 @@
+Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/ekyriakos/my_ws/src/turtle_fusion -DCMAKE_INSTALL_PREFIX=/home/ekyriakos/my_ws/src/install/turtle_fusion
+Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/ekyriakos/my_ws/src/turtle_fusion -DCMAKE_INSTALL_PREFIX=/home/ekyriakos/my_ws/src/install/turtle_fusion
+Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_fusion -- -j4 -l4
+Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_fusion -- -j4 -l4
+Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_fusion
+Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_fusion

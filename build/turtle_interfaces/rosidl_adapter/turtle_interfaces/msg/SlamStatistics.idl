@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/SlamStatistics.msg
+// generated code does not contain a copyright notice
+
+
+module turtle_interfaces {
+  module msg {
+    struct SlamStatistics {
+      double chi2;
+
+      uint32 num_vertices;
+
+      uint32 num_edges;
+
+      double total_optimizer_time;
+
+      uint32 hessian_dim;
+
+      uint32 cholesky_nnz;
+
+      uint32 num_iterations;
+    };
+  };
+};

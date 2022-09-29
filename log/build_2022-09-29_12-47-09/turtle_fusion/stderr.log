@@ -1,0 +1,46 @@
+In file included from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/FusionHandler.hpp:12[m[K,
+                 from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/src/early_fusion.cpp:10[m[K:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:[m[K In member function ‘[01m[Kvoid Fusion::find_inside_bounding_boxes(turtle_interfaces::msg::BoundingBoxes)[m[K’:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:184:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  184 |     for(int i=0; [01;35m[Ki<cam_msg.x.size()[m[K; i++){
+      |                  [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/FusionHandler.hpp:12[m[K,
+                 from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/src/early_fusion.cpp:10[m[K:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:189:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  189 |         for(int j=0; [01;35m[Kj<px.size()[m[K; j++){
+      |                      [01;35m[K~^~~~~~~~~~[m[K
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:[m[K In member function ‘[01m[Kvoid Fusion::assign_bb_pcl(std::vector<float>)[m[K’:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:221:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  221 |     for (int i=0; [01;35m[Ki<id.size()[m[K; i++){
+      |                   [01;35m[K~^~~~~~~~~~[m[K
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:[m[K In member function ‘[01m[Kvoid Fusion::extract_distance(std::vector<float>, std::vector<float>, std::vector<float>, int)[m[K’:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:235:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  235 |     for(int i=0; [01;35m[Ki<v_x.size()[m[K; i++){
+      |                  [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:253:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  253 |     for(int i=0; [01;35m[Ki<v_x.size()[m[K; i++){
+      |                  [01;35m[K~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/FusionHandler.hpp:12[m[K,
+                 from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/src/early_fusion.cpp:10[m[K,
+                 from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/src/main.cpp:1[m[K:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:[m[K In member function ‘[01m[Kvoid Fusion::find_inside_bounding_boxes(turtle_interfaces::msg::BoundingBoxes)[m[K’:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:184:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  184 |     for(int i=0; [01;35m[Ki<cam_msg.x.size()[m[K; i++){
+      |                  [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/FusionHandler.hpp:12[m[K,
+                 from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/src/early_fusion.cpp:10[m[K,
+                 from [01m[K/home/ekyriakos/my_ws/src/turtle_fusion/src/main.cpp:1[m[K:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:189:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  189 |         for(int j=0; [01;35m[Kj<px.size()[m[K; j++){
+      |                      [01;35m[K~^~~~~~~~~~[m[K
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:[m[K In member function ‘[01m[Kvoid Fusion::assign_bb_pcl(std::vector<float>)[m[K’:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:221:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  221 |     for (int i=0; [01;35m[Ki<id.size()[m[K; i++){
+      |                   [01;35m[K~^~~~~~~~~~[m[K
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:[m[K In member function ‘[01m[Kvoid Fusion::extract_distance(std::vector<float>, std::vector<float>, std::vector<float>, int)[m[K’:
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:235:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  235 |     for(int i=0; [01;35m[Ki<v_x.size()[m[K; i++){
+      |                  [01;35m[K~^~~~~~~~~~~[m[K
+[01m[K/home/ekyriakos/my_ws/src/turtle_fusion/include/turtle_fusion/Fusion.hpp:253:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  253 |     for(int i=0; [01;35m[Ki<v_x.size()[m[K; i++){
+      |                  [01;35m[K~^~~~~~~~~~~[m[K

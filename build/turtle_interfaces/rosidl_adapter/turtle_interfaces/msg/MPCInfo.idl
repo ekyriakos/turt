@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/MPCInfo.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    struct MPCInfo {
+      std_msgs::msg::Header header;
+
+      uint8 mpc_was_used;
+
+      @verbatim (language="comment", text=
+        " float32 vx_desired")
+      float delta_commanded;
+
+      float delta_desired;
+
+      float mpc_microseconds;
+
+      float mpc_milliseconds;
+
+      float solver_milliseconds;
+
+      float velocity_desired;
+
+      float vx_max;
+
+      float vx;
+
+      float spline_length;
+
+      uint8 number_of_waypoints;
+
+      float throttle_brake;
+
+      float torque;
+
+      sequence<float> stages_velocity;
+
+      sequence<float> stages_steering_angle;
+
+      sequence<float> stages_force;
+    };
+  };
+};

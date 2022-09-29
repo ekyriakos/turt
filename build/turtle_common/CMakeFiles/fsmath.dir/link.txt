@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfsmath.a  CMakeFiles/fsmath.dir/include/turtle_common/cone.cpp.o
+/usr/bin/ranlib libfsmath.a

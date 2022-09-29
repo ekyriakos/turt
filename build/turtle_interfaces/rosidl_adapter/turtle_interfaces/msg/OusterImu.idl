@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/OusterImu.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " Ouster OS1 IMU Data-Msg")
+    struct OusterImu {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " IMU timestamp of monotonic system time since boot in nanoseconds")
+      uint64 imu_monotonic_time_stamp;
+
+      @verbatim (language="comment", text=
+        " Gyroscope timestamp relative to timestamp_mode in nanoseconds")
+      uint64 gyro_time_stamp;
+
+      @verbatim (language="comment", text=
+        " Accelerometer timestamp relative to timestamp_mode in nanoseconds")
+      uint64 accel_time_stamp;
+
+      @verbatim (language="comment", text=
+        " Acceleration in g with respect to IMU sensor frame")
+      geometry_msgs::msg::Vector3 acceleration;
+
+      @verbatim (language="comment", text=
+        " Angular velocity in deg/sec with respect to IMU sensor frame")
+      geometry_msgs::msg::Vector3 angular_velocity;
+    };
+  };
+};

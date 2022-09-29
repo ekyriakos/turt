@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/InverterInfo.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    struct InverterInfo {
+      std_msgs::msg::Header header;
+
+      float igbts_temp;
+
+      float irms_max;
+
+      float i_lim_in_use;
+
+      float motor_temp;
+
+      float irms;
+
+      float max_rpm;
+    };
+  };
+};

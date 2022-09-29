@@ -1,0 +1,5 @@
+In file included from [01m[K/home/ekyriakos/my_ws/src/turtle_common/include/turtle_common/cone.cpp:3[m[K:
+[01m[K/home/ekyriakos/my_ws/src/turtle_common/include/turtle_common/fsmath.h:[m[K In function ‘[01m[KEigen::VectorXd fsmath::sample_normal(double, double, int)[m[K’:
+[01m[K/home/ekyriakos/my_ws/src/turtle_common/include/turtle_common/fsmath.h:79:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   79 | inline Eigen::VectorXd sample_normal([01;35m[Kdouble m[m[K, double s, int N) {
+      |                                      [01;35m[K~~~~~~~^[m[K

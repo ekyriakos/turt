@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/VnImu.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " VN-300 messages")
+    struct VnImu {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " Unfiltered Accelerometer - X, Y, Z axis m/s2")
+      geometry_msgs::msg::Vector3 accel;
+
+      @verbatim (language="comment", text=
+        " Unfiltered Gyroscope - X, Y, Z axis rad/s")
+      geometry_msgs::msg::Vector3 gyro;
+    };
+  };
+};

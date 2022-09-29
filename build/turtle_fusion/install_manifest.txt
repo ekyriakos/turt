@@ -1,0 +1,17 @@
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/settings/topic_settings.ini
+/home/ekyriakos/my_ws/src/install/turtle_fusion/lib/turtle_fusion/camera_lidar_fusion
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/ament_index/resource_index/package_run_dependencies/turtle_fusion
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/ament_index/resource_index/parent_prefix_path/turtle_fusion
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/ament_prefix_path.sh
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/ament_prefix_path.dsv
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/path.sh
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/path.dsv
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.bash
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.sh
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.zsh
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.dsv
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.dsv
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/ament_index/resource_index/packages/turtle_fusion
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/cmake/turtle_fusionConfig.cmake
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/cmake/turtle_fusionConfig-version.cmake
+/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.xml

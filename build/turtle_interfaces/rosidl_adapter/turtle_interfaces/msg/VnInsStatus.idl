@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/VnInsStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " VN-300 messages")
+    struct VnInsStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " INS status" "\n"
+        " bits 0..1 mode of INS filter:" "\n"
+        " 0 : Not tracking. GPS initializing" "\n"
+        " 1 : Aligning" "\n"
+        " 2 : Tracking" "\n"
+        " 3 : Loss of GPS" "\n"
+        " bit 2 : indicates whether the GPS has a proper fix" "\n"
+        " bits 3..7: error bits" "\n"
+        " bit 3 : Not Used" "\n"
+        " bit 4 : high if IMU communication error is detected" "\n"
+        " bit 5 : high if Magnetometer/Pressure sensor error" "\n"
+        " bit 6 : high if GPS communication error is detected" "\n"
+        " bit 8 : reserved" "\n"
+        " bit 9 : Indicates if the GPS compass is operational and reporting a header solution" "\n"
+        " bits 10.. : reserved")
+      uint16 status;
+    };
+  };
+};

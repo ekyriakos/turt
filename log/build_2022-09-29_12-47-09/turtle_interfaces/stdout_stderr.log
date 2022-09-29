@@ -1,0 +1,1343 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ekyriakos/my_ws/src/build/turtle_interfaces
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target turtle_interfaces__cpp[0m
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  0%] Built target turtle_interfaces__cpp
+[  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  1%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_generator_c[0m
+[  2%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/actuator_cmd__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/apps__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/brake__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/brake_light__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/camera_cones_publish__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/camera_status__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/bounding_boxes__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/can_status__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/control_info__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/cooling_info__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/cpu_status__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/dash_buttons__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/dio_status__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/ebs_service_brake__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/ebs_supervisor_info__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/ebs_tank_pressure__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/ecu_params__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/gpu_status__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/inverter_commands__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/mission__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/mission_status__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/mpc_info__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/ouster_imu__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/psu_monitor__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/res_status__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/ros_status__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/rpm__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/slam_info__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/slam_statistics__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/state_machine_state__functions.c.o[0m
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_typesupport_cpp[0m
+[ 10%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/steering__functions.c.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/actuator_cmd__type_support.cpp.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/tsal_safe_state__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/isabellen__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/ecu_control_systems__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/dash_bools__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/inverter_info__functions.c.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/apps__type_support.cpp.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/vn_euler__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/vn_gps_position__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/vn_gps_velocity__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/vn_imu__functions.c.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/brake__type_support.cpp.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/vn_ins_status__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/vn_quat__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/vn_utc_time__functions.c.o[0m
+[ 14%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_generator_c.so[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/brake_light__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 14%] Built target turtle_interfaces__rosidl_generator_c
+[ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/actuator_cmd__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/camera_cones_publish__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/apps__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/actuator_cmd__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/brake__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/camera_status__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/brake_light__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/apps__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/bounding_boxes__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/camera_cones_publish__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/can_status__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/camera_status__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/brake__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/control_info__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/bounding_boxes__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/brake_light__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/cooling_info__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/can_status__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/cpu_status__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/control_info__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/camera_cones_publish__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/dash_buttons__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/cooling_info__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_typesupport_c[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/dio_status__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/actuator_cmd__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/apps__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/camera_status__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/brake__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/cpu_status__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/brake_light__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/camera_cones_publish__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/camera_status__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/bounding_boxes__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/can_status__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/ebs_service_brake__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/control_info__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/cooling_info__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/cpu_status__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/dash_buttons__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/dio_status__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/ebs_service_brake__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/ebs_supervisor_info__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/dash_buttons__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/ebs_tank_pressure__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/ebs_supervisor_info__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/ecu_params__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/gpu_status__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/inverter_commands__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/mission__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/mission_status__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/dio_status__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/mpc_info__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/ebs_tank_pressure__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/ouster_imu__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/psu_monitor__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/res_status__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/ros_status__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/rpm__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/slam_info__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/slam_statistics__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/can_status__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/state_machine_state__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/steering__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/tsal_safe_state__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/isabellen__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/ecu_control_systems__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/dash_bools__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/inverter_info__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/vn_euler__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/ebs_service_brake__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/vn_gps_position__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/ecu_params__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/vn_gps_velocity__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/vn_imu__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/vn_ins_status__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/vn_quat__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/vn_utc_time__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/gpu_status__type_support.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_c.so[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/ebs_supervisor_info__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/control_info__type_support.cpp.o[0m
+[ 38%] Built target turtle_interfaces__rosidl_typesupport_c
+[ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/inverter_commands__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/ebs_tank_pressure__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/cooling_info__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/mission__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/ecu_params__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/gpu_status__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/mission_status__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/cpu_status__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/inverter_commands__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/mpc_info__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/mission__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/ouster_imu__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/dash_buttons__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/mission_status__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/psu_monitor__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/mpc_info__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/res_status__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/dio_status__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/ouster_imu__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/ros_status__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/ebs_service_brake__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/psu_monitor__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/rpm__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/ebs_supervisor_info__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/res_status__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/slam_info__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/ros_status__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/slam_statistics__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/ebs_tank_pressure__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/rpm__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/state_machine_state__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/ecu_params__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/slam_info__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/steering__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/slam_statistics__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/tsal_safe_state__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/gpu_status__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/state_machine_state__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/isabellen__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/steering__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/inverter_commands__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/tsal_safe_state__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/ecu_control_systems__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/isabellen__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/dash_bools__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/mission__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/ecu_control_systems__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/inverter_info__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/dash_bools__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/mission_status__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/vn_euler__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/inverter_info__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/vn_gps_position__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/mpc_info__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/vn_euler__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/vn_gps_velocity__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/vn_gps_position__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/vn_imu__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/ouster_imu__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/vn_gps_velocity__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/vn_ins_status__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/vn_quat__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/psu_monitor__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/vn_imu__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/vn_utc_time__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/vn_ins_status__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/res_status__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_cpp.so[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/vn_quat__type_support.cpp.o[0m
+[ 56%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[ 56%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/vn_utc_time__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/ros_status__type_support.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 58%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[ 58%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/slam_info__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/slam_statistics__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/state_machine_state__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/steering__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/tsal_safe_state__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/isabellen__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/ecu_control_systems__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/dash_bools__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/inverter_info__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/vn_euler__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/vn_gps_position__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/vn_gps_velocity__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/vn_imu__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/vn_ins_status__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/vn_quat__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/vn_utc_time__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/rpm__type_support.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 62%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 63%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_typesupport_introspection_c[0m
+[ 63%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/actuator_cmd__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/brake__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/brake_light__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/camera_cones_publish__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/camera_status__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/bounding_boxes__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/can_status__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/control_info__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/cooling_info__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/cpu_status__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/dash_buttons__type_support.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/dio_status__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/ebs_service_brake__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/ebs_supervisor_info__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/ebs_tank_pressure__type_support.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/ecu_params__type_support.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/gpu_status__type_support.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/inverter_commands__type_support.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/mission__type_support.c.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/mission_status__type_support.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/mpc_info__type_support.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/ouster_imu__type_support.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/psu_monitor__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/res_status__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/ros_status__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/rpm__type_support.c.o[0m
+[ 70%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/slam_info__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/slam_statistics__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/state_machine_state__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/steering__type_support.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/tsal_safe_state__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/isabellen__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/ecu_control_systems__type_support.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/dash_bools__type_support.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/inverter_info__type_support.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/vn_euler__type_support.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/vn_gps_position__type_support.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/vn_gps_velocity__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/vn_imu__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/vn_ins_status__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/vn_quat__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/vn_utc_time__type_support.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/apps__type_support.c.o[0m
+[ 75%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 75%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[ 76%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_typesupport_fastrtps_c[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/actuator_cmd__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/brake_light__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/camera_cones_publish__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/camera_status__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/bounding_boxes__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/can_status__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/control_info__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/cooling_info__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/cpu_status__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/dash_buttons__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/dio_status__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/ebs_service_brake__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/ebs_supervisor_info__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/ebs_tank_pressure__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/brake__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/ecu_params__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/gpu_status__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/inverter_commands__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/mission__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/mission_status__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/mpc_info__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/ouster_imu__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/psu_monitor__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/res_status__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/ros_status__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/rpm__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/slam_info__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/apps__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/slam_statistics__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/state_machine_state__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/steering__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/tsal_safe_state__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/isabellen__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/ecu_control_systems__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/dash_bools__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/inverter_info__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/vn_euler__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/vn_gps_position__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/vn_gps_velocity__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/vn_imu__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/vn_ins_status__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/vn_quat__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/vn_utc_time__type_support_c.cpp.o[0m
+[ 88%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 88%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target turtle_interfaces[0m
+[ 88%] Built target turtle_interfaces
+[35m[1mScanning dependencies of target turtle_interfaces__py[0m
+[ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 88%] Built target turtle_interfaces__py
+[35m[1mScanning dependencies of target turtle_interfaces__python[0m
+[ 89%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_apps_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_actuator_cmd_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_brake_light_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_camera_cones_publish_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_camera_status_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_bounding_boxes_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_can_status_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_control_info_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_cooling_info_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_cpu_status_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_dash_buttons_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_dio_status_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_ebs_service_brake_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_ebs_supervisor_info_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_ebs_tank_pressure_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_ecu_params_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_gpu_status_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_inverter_commands_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_mission_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_mission_status_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_mpc_info_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_ouster_imu_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_psu_monitor_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_res_status_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_ros_status_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_rpm_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_slam_info_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_slam_statistics_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_state_machine_state_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_steering_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_tsal_safe_state_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_isabellen_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_ecu_control_systems_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_dash_bools_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_inverter_info_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_vn_euler_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_vn_gps_position_s.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_vn_gps_velocity_s.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_vn_imu_s.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_vn_ins_status_s.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_vn_quat_s.c.o[0m
+[100%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_vn_utc_time_s.c.o[0m
+[100%] [32mBuilding C object CMakeFiles/turtle_interfaces__python.dir/rosidl_generator_py/turtle_interfaces/msg/_brake_s.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/libturtle_interfaces__python.so[0m
+[100%] Built target turtle_interfaces__python
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[100%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target turtle_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[100%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/control_info.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/res_status.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/psu_monitor.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/mission_status.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_euler.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ecu_control_systems.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/camera_cones_publish.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ouster_imu.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_gps_velocity.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/rpm.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/apps.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/steering.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/can_status.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/cpu_status.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/dio_status.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/bounding_boxes.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/actuator_cmd.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/state_machine_state.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_utc_time.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/inverter_info.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/slam_statistics.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_imu.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/mpc_info.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/slam_info.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/dash_bools.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__type_support.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__functions.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__functions.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__struct.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/cooling_info.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/inverter_commands.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ebs_service_brake.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ros_status.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_ins_status.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/gpu_status.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/tsal_safe_state.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/camera_status.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ecu_params.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/dash_buttons.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/brake.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/brake_light.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/mission.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/isabellen.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_gps_position.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ebs_supervisor_info.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_quat.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ebs_tank_pressure.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__type_support.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/dash_buttons.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_utc_time.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/steering.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/cooling_info.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/tsal_safe_state.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_gps_position.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/res_status.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/bounding_boxes.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/psu_monitor.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/isabellen.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/actuator_cmd.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/cpu_status.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_quat.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/brake_light.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/can_status.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/brake.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/gpu_status.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ecu_control_systems.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/inverter_commands.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/mission.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/dio_status.hpp
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__struct.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__traits.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__builder.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ebs_supervisor_info.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/camera_status.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/slam_statistics.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ebs_tank_pressure.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/slam_info.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/mpc_info.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_ins_status.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/apps.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ros_status.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_euler.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ouster_imu.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_gps_velocity.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/mission_status.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/camera_cones_publish.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/inverter_info.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/state_machine_state.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/rpm.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/dash_bools.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/control_info.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ecu_params.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/ebs_service_brake.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/vn_imu.hpp
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_supervisor_info__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_control_systems__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ouster_imu__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/psu_monitor__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/gpu_status__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_euler__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/isabellen__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ecu_params__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_statistics__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_position__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/control_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_service_brake__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_gps_velocity__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/rpm__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cpu_status__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_ins_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_info__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_imu__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_quat__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake_light__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dio_status__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/camera_cones_publish__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_buttons__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/can_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ros_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mpc_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/vn_utc_time__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/tsal_safe_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/apps__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/steering__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/actuator_cmd__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/slam_info__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/inverter_commands__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/dash_bools__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/mission__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/res_status__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/cooling_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/state_machine_state__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/brake__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/include/turtle_interfaces/msg/detail/ebs_tank_pressure__type_support.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/__init__.py
+Compiling '/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/__init__.py'...
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ebs_service_brake_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_mission_status_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_mpc_info.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_dash_buttons.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_tsal_safe_state.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_slam_info_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_isabellen.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_brake_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ros_status.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_mpc_info_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_brake.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_camera_cones_publish_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ouster_imu_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_utc_time_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_gps_position.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ecu_params_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_res_status.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_dash_bools_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_inverter_info_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_actuator_cmd.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_gps_velocity.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_inverter_commands_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_inverter_commands.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_imu.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_res_status_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_gpu_status.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_control_info_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_inverter_info.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_rpm_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_control_info.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_cpu_status.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_dash_buttons_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_euler.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_ins_status_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_bounding_boxes.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_quat.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_can_status.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_apps_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ros_status_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_slam_statistics_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ebs_supervisor_info_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ebs_supervisor_info.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_mission.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_dio_status.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ebs_tank_pressure_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_slam_info.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_slam_statistics.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_apps.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/__init__.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_cooling_info.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_steering.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_quat_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ebs_tank_pressure.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_psu_monitor.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_tsal_safe_state_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_state_machine_state_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_can_status_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_actuator_cmd_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_isabellen_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_brake_light.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ecu_control_systems.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_imu_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ecu_params.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_gps_position_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ouster_imu.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_camera_cones_publish.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_utc_time.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_mission_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_mission_status.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_gps_velocity_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_euler_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ecu_control_systems_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_gpu_status_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_cooling_info_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_camera_status_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_steering_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_bounding_boxes_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_dio_status_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_cpu_status_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_rpm.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_dash_bools.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_psu_monitor_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_ebs_service_brake.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_state_machine_state.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_vn_ins_status.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_camera_status.py
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/msg/_brake_light_s.c
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__python.so
+-- Set runtime path of "/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/libturtle_interfaces__python.so" to ""
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ActuatorCmd.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Apps.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Brake.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/BrakeLight.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CameraConesPublish.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CameraStatus.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/BoundingBoxes.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CanStatus.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ControlInfo.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CoolingInfo.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CpuStatus.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/DashButtons.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/DioStatus.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/EbsServiceBrake.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/EbsSupervisorInfo.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/EbsTankPressure.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ECUParams.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/GpuStatus.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/InverterCommands.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Mission.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/MissionStatus.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/MPCInfo.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/OusterImu.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/PsuMonitor.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ResStatus.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/RosStatus.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/RPM.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/SlamInfo.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/SlamStatistics.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/StateMachineState.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Steering.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/TsalSafeState.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Isabellen.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ECUControlSystems.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/DashBools.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/InverterInfo.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnEuler.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnGpsPosition.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnGpsVelocity.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnImu.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnInsStatus.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnQuat.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnUtcTime.idl
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ActuatorCmd.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Apps.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Brake.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/BrakeLight.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CameraConesPublish.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CameraStatus.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/BoundingBoxes.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CanStatus.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ControlInfo.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CoolingInfo.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/CpuStatus.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/DashButtons.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/DioStatus.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/EbsServiceBrake.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/EbsSupervisorInfo.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/EbsTankPressure.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ECUParams.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/GpuStatus.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/InverterCommands.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Mission.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/MissionStatus.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/MPCInfo.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/OusterImu.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/PsuMonitor.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ResStatus.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/RosStatus.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/RPM.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/SlamInfo.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/SlamStatistics.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/StateMachineState.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Steering.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/TsalSafeState.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/Isabellen.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/ECUControlSystems.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/DashBools.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/InverterInfo.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnEuler.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnGpsPosition.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnGpsVelocity.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnImu.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnInsStatus.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnQuat.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/msg/VnUtcTime.msg
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/package.xml

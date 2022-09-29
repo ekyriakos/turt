@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/VnQuat.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " VN-300 messages")
+    struct VnQuat {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "  Quaternion parameter (ROS order X, Y, Z, W)")
+      geometry_msgs::msg::Quaternion quaternion;
+    };
+  };
+};

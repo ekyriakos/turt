@@ -1,0 +1,13 @@
+startx1: 0.0
+starty1: 1.5
+startx2: 0.0
+starty2: -1.5
+azimuth: 0.0
+endx1: 75.0
+endy1: 1.5
+endx2: 75.0
+endy2: -1.5
+endAzimuth: 0.0
+startPoseX: -0.3
+startPoseY: 0.0
+startPoseHeading: 0.0

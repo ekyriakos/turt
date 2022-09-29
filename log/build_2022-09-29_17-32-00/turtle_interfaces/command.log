@@ -1,0 +1,4 @@
+Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_interfaces -- -j4 -l4
+Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_interfaces -- -j4 -l4
+Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_interfaces
+Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_interfaces

@@ -1,0 +1,277 @@
+[0.224s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.224s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7efedb487970>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7efedb487970>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7efedb487ee0>)
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.264s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ekyriakos/my_ws/src'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_common) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_common) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_common) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_common) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_common) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_common) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_common) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_common) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_common) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_common' with type 'ros.ament_cmake' and name 'turtle_common'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_doctor_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_doctor_cpp) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_doctor_cpp) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_doctor_cpp) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_doctor_cpp) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_doctor_cpp) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_doctor_cpp) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_doctor_cpp) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_doctor_cpp) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_doctor_cpp' with type 'ros.ament_cmake' and name 'turtle_doctor_cpp'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_fusion) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_fusion) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_fusion) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_fusion) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_fusion) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_fusion) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_fusion) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_fusion) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_fusion' with type 'ros.ament_cmake' and name 'turtle_fusion'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_interfaces) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_interfaces' with type 'ros.ament_cmake' and name 'turtle_interfaces'
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/ekyriakos/my_ws/install
+[0.350s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ekyriakos/git_ws/src/turtle_doctor/install
+[0.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/galactic
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.473s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtle_interfaces' is in: /home/ekyriakos/my_ws/install/turtle_interfaces
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtle_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'turtle_common' build argument 'cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'turtle_common' build argument 'cmake_target' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'turtle_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'turtle_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'turtle_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'turtle_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'turtle_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'turtle_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'turtle_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.476s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ekyriakos/my_ws/src/build/turtle_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ekyriakos/my_ws/src/install/turtle_common', 'merge_install': False, 'path': '/home/ekyriakos/my_ws/src/turtle_common', 'symlink_install': False, 'test_result_base': None}
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'turtle_fusion' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'turtle_fusion' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'turtle_fusion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'turtle_fusion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'turtle_fusion' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'turtle_fusion' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'turtle_fusion' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'turtle_fusion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'turtle_fusion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_fusion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ekyriakos/my_ws/src/build/turtle_fusion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ekyriakos/my_ws/src/install/turtle_fusion', 'merge_install': False, 'path': '/home/ekyriakos/my_ws/src/turtle_fusion', 'symlink_install': False, 'test_result_base': None}
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ekyriakos/my_ws/src/build/turtle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ekyriakos/my_ws/src/install/turtle_interfaces', 'merge_install': False, 'path': '/home/ekyriakos/my_ws/src/turtle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'turtle_doctor_cpp' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'turtle_doctor_cpp' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'turtle_doctor_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'turtle_doctor_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'turtle_doctor_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtle_doctor_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtle_doctor_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtle_doctor_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'turtle_doctor_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_doctor_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ekyriakos/my_ws/src/build/turtle_doctor_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ekyriakos/my_ws/src/install/turtle_doctor_cpp', 'merge_install': False, 'path': '/home/ekyriakos/my_ws/src/turtle_doctor_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.489s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.502s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ekyriakos/my_ws/src/turtle_interfaces' with build type 'ament_cmake'
+[0.503s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ekyriakos/my_ws/src/turtle_interfaces'
+[0.514s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ekyriakos/my_ws/src/turtle_common' with build type 'ament_cmake'
+[0.530s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ekyriakos/my_ws/src/turtle_common'
+[0.533s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.561s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ekyriakos/my_ws/src/turtle_fusion' with build type 'ament_cmake'
+[0.561s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ekyriakos/my_ws/src/turtle_fusion'
+[0.566s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_interfaces -- -j4 -l4
+[0.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_common -- -j4 -l4
+[0.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_fusion -- -j4 -l4
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_common -- -j4 -l4
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_common
+[1.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_fusion -- -j4 -l4
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_common)
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common' for CMake module files
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common' for CMake config files
+[1.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_common
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_common', 'cmake_prefix_path')
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/hook/cmake_prefix_path.ps1'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/hook/cmake_prefix_path.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/hook/cmake_prefix_path.sh'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/lib'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/bin'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/lib/pkgconfig/turtle_common.pc'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/lib/python3.8/site-packages'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/bin'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.bash'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.zsh'
+[1.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekyriakos/my_ws/src/install/turtle_common/share/colcon-core/packages/turtle_common)
+[1.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_fusion
+[1.295s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_fusion)
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion' for CMake module files
+[1.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_fusion
+[1.308s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion' for CMake config files
+[1.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_fusion', 'cmake_prefix_path')
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/hook/cmake_prefix_path.ps1'
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/hook/cmake_prefix_path.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/hook/cmake_prefix_path.sh'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/lib'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/bin'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/lib/pkgconfig/turtle_fusion.pc'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/lib/python3.8/site-packages'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/bin'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.sh'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.bash'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.zsh'
+[1.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekyriakos/my_ws/src/install/turtle_fusion/share/colcon-core/packages/turtle_fusion)
+[1.396s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_common)
+[1.403s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common' for CMake module files
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common' for CMake config files
+[1.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_common', 'cmake_prefix_path')
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/hook/cmake_prefix_path.ps1'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/hook/cmake_prefix_path.dsv'
+[1.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/hook/cmake_prefix_path.sh'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/lib'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/bin'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/lib/pkgconfig/turtle_common.pc'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/lib/python3.8/site-packages'
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_common/bin'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.ps1'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.dsv'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.sh'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.bash'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.zsh'
+[1.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekyriakos/my_ws/src/install/turtle_common/share/colcon-core/packages/turtle_common)
+[1.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_fusion)
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion' for CMake module files
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion' for CMake config files
+[1.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_fusion', 'cmake_prefix_path')
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/hook/cmake_prefix_path.ps1'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/hook/cmake_prefix_path.dsv'
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/hook/cmake_prefix_path.sh'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/lib'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/bin'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/lib/pkgconfig/turtle_fusion.pc'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/lib/python3.8/site-packages'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_fusion/bin'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.dsv'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.sh'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.bash'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.zsh'
+[1.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekyriakos/my_ws/src/install/turtle_fusion/share/colcon-core/packages/turtle_fusion)
+[1.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_interfaces -- -j4 -l4
+[2.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_interfaces
+[2.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[2.953s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[3.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_interfaces
+[4.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_interfaces' for CMake module files
+[4.019s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_interfaces' for CMake config files
+[4.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[4.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[4.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[4.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib'
+[4.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[4.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[4.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[4.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[4.042s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_interfaces/bin'
+[4.042s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[4.043s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_interfaces/lib/python3.8/site-packages'
+[4.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'pythonpath')
+[4.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.ps1'
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.dsv'
+[4.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.sh'
+[4.049s] Level 1:colcon.colcon_core.environment:checking '/home/ekyriakos/my_ws/src/install/turtle_interfaces/bin'
+[4.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[4.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[4.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[4.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[4.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[4.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ekyriakos/my_ws/src/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[4.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[4.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.071s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.096s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.096s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.142s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.147s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ekyriakos/my_ws/src/install/local_setup.ps1'
+[4.149s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ekyriakos/my_ws/src/install/_local_setup_util_ps1.py'
+[4.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ekyriakos/my_ws/src/install/setup.ps1'
+[4.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ekyriakos/my_ws/src/install/local_setup.sh'
+[4.158s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ekyriakos/my_ws/src/install/_local_setup_util_sh.py'
+[4.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ekyriakos/my_ws/src/install/setup.sh'
+[4.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ekyriakos/my_ws/src/install/local_setup.bash'
+[4.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ekyriakos/my_ws/src/install/setup.bash'
+[4.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ekyriakos/my_ws/src/install/local_setup.zsh'
+[4.169s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ekyriakos/my_ws/src/install/setup.zsh'

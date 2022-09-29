@@ -1,0 +1,14 @@
+std_msgs/Header header
+
+float32 lookahead_distance
+float32 vx_desired
+uint8 lap
+bool map_available
+bool finalization_trigger
+float32 seconds_to_cross_finish_line
+float32 anti_delft_gain
+float32 finish_dist_thresh
+float32 vx
+float32 seconds_passed_since_finalization_trigger
+bool heading_condition
+float32 startline_pose_heading

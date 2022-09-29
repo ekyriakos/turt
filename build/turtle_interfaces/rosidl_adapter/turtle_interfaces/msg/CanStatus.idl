@@ -1,0 +1,77 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/CanStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    module CanStatus_Constants {
+      const uint32 DASH_APPS_TIMEOUT = 1;
+      const uint32 DASH_BRAKE_TIMEOUT = 2;
+      const uint32 DASH_BUTTONS_TIMEOUT = 4;
+      const uint32 DASH_FRONT_HALL_TIMEOUT = 8;
+      const uint32 AUX_PUMPS_FANS_TIMEOUT = 16;
+      const uint32 DASH_BOOLS_TIMEOUT = 32;
+      const uint32 EBS_TANK_PRESSURE_TIMEOUT = 64;
+      const uint32 AMI_SELECTED_MISSION_TIMEOUT = 128;
+      const uint32 SWA_STATUS_TIMEOUT = 256;
+      const uint32 EBS_SUPERVISOR_TIMEOUT = 512;
+      const uint32 EBS_SERVICE_BRAKE_TIMEOUT = 1024;
+      const uint32 INVERTER_ADU_TIMEOUT = 2048;
+      const uint32 ECU_PARAMS_ACTUAL_TIMEOUT = 4096;
+      const uint32 COOLING_INFO_TIMEOUT = 8192;
+      const uint32 ISABELLEN_TIMEOUT = 16384;
+      const uint32 ECU_CONTROL_SYSTEMS_TIMEOUT = 32768;
+      const uint32 ECU_ISABELLEN_TIMEOUT = 65536;
+      const uint32 INV_LEFT_INFO_TIMEOUT = 131072;
+      const uint32 INV_RIGHT_INFO_TIMEOUT = 262144;
+      const int32 CAN_STATE_ERROR_ACTIVE = 0;
+      const int32 CAN_STATE_ERROR_WARNING = 1;
+      const int32 CAN_STATE_ERROR_PASSIVE = 2;
+      const int32 CAN_STATE_BUS_OFF = 3;
+      const int32 CAN_STATE_STOPPED = 4;
+      const int32 CAN_STATE_SLEEPING = 5;
+      const int32 CAN_STATE_MAX = 6;
+    };
+    struct CanStatus {
+      std_msgs::msg::Header header;
+
+      uint32 message_timeouts;
+
+      @verbatim (language="comment", text=
+        "uint16 SWA_STATUS_ANALOG1_ERROR     = 1" "\n"
+        "uint16 SWA_STATUS_ANALOG2_ERROR     = 2" "\n"
+        "uint16 SWA_STATUS_STALL_OCCURED     = 4")
+      uint16 sensor_errors;
+
+      @verbatim (language="comment", text=
+        " current Tx errors")
+      uint16 tx_berrors;
+
+      @verbatim (language="comment", text=
+        " current Rx errors")
+      uint16 rx_berrors;
+
+      @verbatim (language="comment", text=
+        " total Tx errors")
+      uint64 tx_terrors;
+
+      @verbatim (language="comment", text=
+        " total Rx errors")
+      uint64 rx_terrors;
+
+      @verbatim (language="comment", text=
+        " counts bus erros")
+      uint32 bus_errors;
+
+      @verbatim (language="comment", text=
+        " counts restarts")
+      uint32 restarts;
+
+      @verbatim (language="comment", text=
+        " displays CAN state")
+      int32 can_state;
+    };
+  };
+};

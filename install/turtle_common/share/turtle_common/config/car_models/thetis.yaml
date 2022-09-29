@@ -1,0 +1,27 @@
+m: 250 #Mass
+L: 1.535 #Wheel base, (prev value 2), DSS Italy 2019
+t: 1.18   
+l_r: 0.583 #(prev value 0.8), DSS Italy 2019
+I_z: 185 #In approximation, moment of inertia for 250 kg mass
+I_w: 0.6 # 2*0.3 which is the moment of inertia of the wheels (See DSS Italy 2019)
+r_eff: 0.26035
+max_brake_torque: 1000 #1000 is quite good value according to Dagalakis
+rho: 1.2754
+A: 1.14 #DSS Italy 2019
+c_d: 1.17 #DSS Italy 2019
+c_r0: 0.00 #0.02 is a typical coefficient but for kph
+c_r1: 0.02
+c_r2: 0.02
+g: 0.08726646259971647 # Camber angle 5deg in rad, !!!! Not used?
+SR: 0.4
+GR: 3.2 #Updated GR, DSS Italy 2019
+I_t: 0.0766 #Moment of inertia of 2 Emrax 228
+max_motor_torque: 305 #Max motor torque is around 360( = 75% * 480), but continuous motor torque is 250 (DSS Italy 2019)
+cog_height: 0.26 #DSS Italy 2019
+half_axle_z_off: 0.05
+Cl: 2.34 #DSS Italy 2019
+DF_PercentageFront: 0.42 #DSS Italy 2019
+# powertrain
+batt_max_charging_idc: 48 # Amps
+batt_min_vdc: 280 # Volts
+motor_k: 0.7 # EMRAX 228 Torque/Current(RMS)

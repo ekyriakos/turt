@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/doctor.dir/doctor.cpp.o  -o doctor 

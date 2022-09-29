@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/CpuStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    struct CpuStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " System-wide CPU utilization percentage")
+      float cpu_usage_percent;
+
+      @verbatim (language="comment", text=
+        " Thread-wise CPU utilization percentages")
+      uint16 number_of_cores;
+
+      sequence<float> core_usage_percents;
+
+      @verbatim (language="comment", text=
+        " Process-wise CPU utilization percentages")
+      uint32 number_of_ros_nodes;
+
+      sequence<float> node_cpu_usage_percents;
+
+      sequence<string> node_cpu_usage_names;
+
+      @verbatim (language="comment", text=
+        " Core-wise CPU temperatures in Celsius")
+      uint16 number_of_temperatures;
+
+      sequence<float> core_temperatures;
+
+      sequence<string> core_temperature_names;
+    };
+  };
+};

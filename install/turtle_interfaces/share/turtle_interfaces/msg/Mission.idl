@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/Mission.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    module Mission_Constants {
+      const int8 ERROR_MISSION = -1;
+      const int8 NO_MISSION = 0;
+      const int8 ACCELERATION = 1;
+      const int8 SKIDPAD = 2;
+      const int8 AUTOCROSS = 3;
+      const int8 TRACKDRIVE = 4;
+      const int8 EBS_TEST = 5;
+      const int8 INSPECTION = 6;
+      const int8 MANUAL_MISSION = 7;
+    };
+    struct Mission {
+      std_msgs::msg::Header header;
+
+      int8 mission;
+    };
+  };
+};

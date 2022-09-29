@@ -1,0 +1,25 @@
+[0.089s] Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_fusion -- -j4 -l4
+[0.290s] [ 50%] Built target fusion
+[0.463s] [100%] Built target camera_lidar_fusion
+[0.548s] Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ekyriakos/my_ws/src/build/turtle_fusion -- -j4 -l4
+[0.689s] Invoking command in '/home/ekyriakos/my_ws/src/build/turtle_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_fusion
+[0.718s] -- Install configuration: ""
+[0.719s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/settings
+[0.719s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/settings/topic_settings.ini
+[0.720s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/lib/turtle_fusion/camera_lidar_fusion
+[0.721s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/ament_index/resource_index/package_run_dependencies/turtle_fusion
+[0.721s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/ament_index/resource_index/parent_prefix_path/turtle_fusion
+[0.721s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/ament_prefix_path.sh
+[0.722s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/ament_prefix_path.dsv
+[0.722s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/path.sh
+[0.722s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/path.dsv
+[0.723s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.bash
+[0.723s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.sh
+[0.724s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.zsh
+[0.724s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.dsv
+[0.724s] -- Installing: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.dsv
+[0.725s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/ament_index/resource_index/packages/turtle_fusion
+[0.726s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/cmake/turtle_fusionConfig.cmake
+[0.726s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/cmake/turtle_fusionConfig-version.cmake
+[0.726s] -- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.xml
+[0.735s] Invoked command in '/home/ekyriakos/my_ws/src/build/turtle_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ekyriakos/my_ws/src/build/turtle_fusion

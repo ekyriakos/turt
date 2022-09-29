@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfusion.a  CMakeFiles/fusion.dir/src/early_fusion.cpp.o
+/usr/bin/ranlib libfusion.a

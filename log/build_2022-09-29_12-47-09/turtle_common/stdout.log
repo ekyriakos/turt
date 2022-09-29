@@ -1,0 +1,153 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+-- Found yaml_cpp_vendor: 7.1.1 (/opt/ros/galactic/share/yaml_cpp_vendor/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ekyriakos/my_ws/src/build/turtle_common
+[35m[1mScanning dependencies of target fsmath[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fsmath.dir/include/turtle_common/cone.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libfsmath.a[0m
+[100%] Built target fsmath
+-- Install configuration: ""
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/environment/library_path.sh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/environment/library_path.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/cone.cpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/pose.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/twist.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/cone.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/start_finish_line.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/ECUParams.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/vehicle_model.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/VehicleParams.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/fsmath_conversions.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/State.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/odometry.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/cone_color.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/fsmath.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/g2o
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/g2o/eigen_types.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/g2o/se2.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/track.hpp
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/include/turtle_common/Input.h
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway4
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway4/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway4/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway4/middles.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway4/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway4/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow1
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow1/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow1/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow1/middles.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow1/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow1/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/skidpad
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/skidpad/orange.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/skidpad/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/skidpad/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/skidpad/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/skidpad/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/acceleration
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/acceleration/orange.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/acceleration/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/acceleration/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/acceleration/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/acceleration/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/autocross_hungaroring_2021_08_10_reconstructed
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/autocross_hungaroring_2021_08_10_reconstructed/orange.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/autocross_hungaroring_2021_08_10_reconstructed/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/autocross_hungaroring_2021_08_10_reconstructed/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/autocross_hungaroring_2021_08_10_reconstructed/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/autocross_hungaroring_2021_08_10_reconstructed/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway1
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway1/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway1/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway1/middles.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway1/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway1/layout.png
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway1/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/trackdrive_hungaroring_2021_08_11_reconstructed
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/trackdrive_hungaroring_2021_08_11_reconstructed/orange.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/trackdrive_hungaroring_2021_08_11_reconstructed/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/trackdrive_hungaroring_2021_08_11_reconstructed/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/trackdrive_hungaroring_2021_08_11_reconstructed/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/trackdrive_hungaroring_2021_08_11_reconstructed/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway3
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway3/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway3/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway3/middles.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway3/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway3/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow2
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow2/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow2/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow2/middles.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow2/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/narrow2/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway2
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway2/info.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway2/orange_big.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway2/middles.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway2/right.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//track_points/raceway2/left.txt
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//config
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//config/car_models
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common//config/car_models/thetis.yaml
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/lib/libfsmath.a
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/ament_index/resource_index/package_run_dependencies/turtle_common
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/ament_index/resource_index/parent_prefix_path/turtle_common
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/environment/ament_prefix_path.sh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/environment/ament_prefix_path.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/environment/path.sh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/environment/path.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/local_setup.bash
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/local_setup.sh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/local_setup.zsh
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/local_setup.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/ament_index/resource_index/packages/turtle_common
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/cmake/export_fsmathExport.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/cmake/export_fsmathExport-noconfig.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/cmake/turtle_commonConfig.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/cmake/turtle_commonConfig-version.cmake
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_common/share/turtle_common/package.xml

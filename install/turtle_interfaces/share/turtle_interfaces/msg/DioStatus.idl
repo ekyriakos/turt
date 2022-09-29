@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/DioStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    typedef boolean boolean__8[8];
+    struct DioStatus {
+      std_msgs::msg::Header header;
+
+      boolean__8 do_state;
+
+      boolean__8 di_state;
+    };
+  };
+};

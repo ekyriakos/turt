@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/VnGpsPosition.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module turtle_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " VN-300 messages")
+    struct VnGpsPosition {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " number of satelites")
+      uint8 num_sats;
+
+      @verbatim (language="comment", text=
+        " fix status" "\n"
+        " 0: no fix" "\n"
+        " 1: time fix only" "\n"
+        " 2: 2D fix" "\n"
+        " 3: 3D fix")
+      uint8 fix;
+
+      @verbatim (language="comment", text=
+        " [Latitude (positive North deg), Longitude (positive East deg), Altitude (Above Mean Sea Level m)]")
+      geometry_msgs::msg::Vector3 position;
+
+      @unit (value="Body frame position uncertainty in NED frame)")
+      geometry_msgs::msg::Vector3 positionu;
+    };
+  };
+};

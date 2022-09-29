@@ -1,0 +1,21 @@
+[ 50%] Built target fusion
+[100%] Built target camera_lidar_fusion
+-- Install configuration: ""
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/settings
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/settings/topic_settings.ini
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/lib/turtle_fusion/camera_lidar_fusion
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/ament_index/resource_index/package_run_dependencies/turtle_fusion
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/ament_index/resource_index/parent_prefix_path/turtle_fusion
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/path.sh
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/environment/path.dsv
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.bash
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.sh
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.zsh
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/local_setup.dsv
+-- Installing: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.dsv
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/ament_index/resource_index/packages/turtle_fusion
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/cmake/turtle_fusionConfig.cmake
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/cmake/turtle_fusionConfig-version.cmake
+-- Up-to-date: /home/ekyriakos/my_ws/src/install/turtle_fusion/share/turtle_fusion/package.xml

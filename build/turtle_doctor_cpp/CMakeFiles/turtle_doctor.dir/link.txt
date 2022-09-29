@@ -1,0 +1,2 @@
+/usr/bin/ar qc libturtle_doctor.a  CMakeFiles/turtle_doctor.dir/doctor.cpp.o
+/usr/bin/ranlib libturtle_doctor.a
